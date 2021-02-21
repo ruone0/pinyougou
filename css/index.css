@@ -193,6 +193,24 @@
 .box-hd {
     margin-top: 25px;
     height: 30px;
-    background-color: pink;
     border-bottom: 2px solid #c81623;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list li a {
+    padding: 15px;
 }
