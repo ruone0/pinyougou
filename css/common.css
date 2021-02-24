@@ -185,6 +185,11 @@
     height: 31px;
     line-height: 31px;
     color: #fff;
+    transition: all .3s;
+}
+
+.dropdown .dd .menu_item:hover {
+    padding: 0 20px;
 }
 
 .dropdown .dd .menu_item:hover {

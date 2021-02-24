@@ -261,6 +261,18 @@
     text-align: center;
 }
 
+.box-bd li {
+    overflow: hidden;
+}
+
+.box-bd img {
+    transition: all .2s;
+}
+
+.box-bd img:hover {
+    margin-left: 8px;
+}
+
 
 /* 电梯导航 */
 
