@@ -21,6 +21,10 @@
     line-height: 26px;
 }
 
+.style-red {
+    color: #c81623;
+}
+
 
 /* 版心 */
 
@@ -60,10 +64,6 @@
 .header {
     position: relative;
     height: 105px;
-}
-
-.header .style-red {
-    color: #c81623;
 }
 
 .logo {
@@ -185,6 +185,11 @@
     height: 31px;
     line-height: 31px;
     color: #fff;
+    transition: all .3s;
+}
+
+.dropdown .dd .menu_item:hover {
+    padding: 0 20px;
 }
 
 .dropdown .dd .menu_item:hover {
